@@ -9,7 +9,7 @@
 	<!-- #39393d -->
 	<div class="   ">
 		<div
-			class="pt-8 md:pt-6  pb-6 md:ml-3 md:mr-1  md:mt-2 dark:from-inherit dark:to-inherit to-[#cee99d] from-[#74ddb1] bg-gradient-to-tr md:rounded-lg  dark:from-[#342f3f] dark:to-[#342f3f] dark:shadow-none shadow-md md:shadow-neutral-400"
+			class="pt-8 md:pt-6  pb-6 md:ml-3 md:mr-1  md:mt-2 dark:from-inherit dark:to-inherit to-[#cee99d] from-[#74ddb1] bg-gradient-to-tr md:rounded-lg  dark:from-[#302c3d] dark:to-[#2e2a3a] dark:shadow-none shadow-md md:shadow-neutral-400"
 		>
 			<div
 				class="mx-auto h-28 w-28 mb-2   rounded-full dark:bg-[url('/profile/no-profile-picture-icon.svg')] bg-[url('/profile/no-profile-picture-icon-light.svg')] bg-contain"
