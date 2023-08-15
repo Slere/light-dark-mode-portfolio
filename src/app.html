@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-hidden">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel = "icon" href="favicon.png" />
+	<meta name="viewport" content="width=device-width" />
+	%sveltekit.head%
+
+	<style lang="postcss">
+		body {
+			height:100%;
+			min-height: -webkit-fill-available;
+		}
+
+		html {
+			height: -webkit-fill-available;
+			height:100%;
+		}
+	</style>
+</head>
+
+<body data-sveltekit-preload-data="hover" class="bg-[#f8f8f8] dark:bg-[#1a1625]    dark:text-neutral-400 text-neutral-700 overflow-hidden ">
+	<div style="display: contents" class="overflow-hidden ">%sveltekit.body%</div>
+</body>
+
+</html>
