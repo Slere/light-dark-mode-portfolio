@@ -283,7 +283,7 @@
 					</div>
 
 					<div
-						class="pb-2  px-2 xxs:px-2 xs:px-4 md:px-10 w-full flex items-start  justify-center md:justify-start flex-wrap md:grid md:gap-6 bg-[#fbfcfd] dark:bg-[#2f2b3a] md:bg-inherit dark:md:bg-inherit
+						class=" pb-2  px-2 xxs:px-2 xs:px-4 md:px-10 w-full flex items-start  justify-center md:justify-start flex-wrap md:grid md:gap-6 bg-[#fbfcfd] dark:bg-[#2f2b3a] md:bg-inherit dark:md:bg-inherit
 						
 			
 						md:grid-cols-[repeat(auto-fill,minmax(190px,1fr))] 
