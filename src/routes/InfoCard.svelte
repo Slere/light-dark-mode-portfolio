@@ -133,7 +133,7 @@
 			</ul>
 		</div>
 
-		<div class="dark:bg-[#443f4e] bg-[#57b68e] p-2 py-2 text-center">
+		<div class="dark:bg-[#443f4e] bg-[#5dc198] p-2 py-2 text-center">
 			<a
 				href="https://github.com/Slere"
 				target="_blank"

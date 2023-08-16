@@ -265,7 +265,7 @@
 					</div>
 
 					<div
-						class=" pb-2  px-2 xxs:px-2 xs:px-4 md:px-6 lg:px-8 w-full flex items-stretch  justify-center  flex-wrap bg-[#fbfcfd] dark:bg-inherit md:bg-inherit dark:md:bg-inherit
+						class=" pb-2  px-2 xxs:px-2 xs:px-4 md:px-6 lg:px-6 w-full flex items-stretch  justify-center  flex-wrap bg-[#fbfcfd] dark:bg-inherit md:bg-inherit dark:md:bg-inherit
 						 "
 					>
 						{#each projects as pr}

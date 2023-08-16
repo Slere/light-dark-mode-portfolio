@@ -13,11 +13,10 @@
 	const dispatch = createEventDispatcher();
 </script>
 
-<div class="md:border  bg-[#fbfcfd] border-t dark:border-none dark:bg-inherit md:shadow-none md:dark:shadow-none dark:px-4 px-8 pt-4 pb-2 md:mb-4 md:rounded-lg   dark:mx-4 dark:md:mx-10 dark:lg:mx-auto  md:mx-6 lg:mx-auto lg:max-w-[677px]">
-	<div class="w-full h-fit    relative ">
-		<!-- svelte-ignore a11y-click-events-have-key-events -->
+<div class="md:border relative bg-[#fbfcfd] border-t dark:border-none dark:bg-inherit md:shadow-none md:dark:shadow-none dark:px-4 px-8 pt-4 pb-2 md:mb-4 md:rounded-lg   dark:mx-4 dark:md:mx-10 dark:lg:mx-auto  md:mx-6 lg:mx-auto lg:max-w-[677px]">
+	<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div
-			class="absolute top-0 right-0 z-10 cursor-pointer dark:bg-inherit bg-[inherit] rounded-full "
+			class="absolute top-4 right-5 z-10 cursor-pointer dark:bg-inherit bg-[inherit] rounded-full "
 			on:click={() => dispatch('project', { project: undefined })}
 		>
 			<svg
@@ -31,6 +30,8 @@
 				<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
 			</svg>
 		</div>
+	<div class="w-full h-fit     ">
+		
 		<h1
 			class=" text-3xl  w-fit mb-3   capitalize font-light  tracking-tight inline-block dark:text-neutral-300 text-neutral-600"
 		>
@@ -39,7 +40,7 @@
 		<div class="flex flex-wrap gap-[0.4rem] md:gap-2 mb-6">
 			{#each tags as tag, i}
 				<span
-					class="px-3  shadow-sm  text-sm   rounded-lg py-1 dark:text-gray-700 text-neutral-500 dark:bg-[#b197eb] bg-[#bef5ca] tracking-tight"
+					class="px-3  shadow-sm  text-sm   rounded-lg py-1 dark:text-gray-700 text-neutral-500 dark:bg-[#a58fd4] bg-[#bef5ca] tracking-tight"
 				>
 					{tag}</span
 				>
