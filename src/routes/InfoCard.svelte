@@ -19,7 +19,7 @@
 			>
 				Rene Ensle
 			</p>
-			<p class="text-center font-light dark:text-inherit text-neutral-700 ">Fullstack Developer</p>
+			<p class="text-center font-light dark:text-[#a2a2b1] text-neutral-700 ">Fullstack Developer</p>
 		</div>
 	</div>
 
@@ -28,7 +28,7 @@
 		<div
 			class=" mb-2 border-b-2 font-medium dark:border-[#4f4d5c] border-neutral-200 h-fit pb-4 font-base text-[0.91rem] tracking-[0.01em] leading-6 "
 		>
-			<span class="float-left dark:text-inherit text-neutral-500"
+			<span class="float-left dark:text-[#a2a2b1] text-neutral-500"
 				>Residence: <br />City: <br />Age:</span
 			>
 			<span class="float-right text-right font-medium  dark:text-neutral-300 text-neutral-600"
@@ -108,7 +108,7 @@
 						/></svg
 					>
 
-					<span class="leading-relaxed text-sm">Spring Boot, Angular, NodeJS</span>
+					<span class="leading-relaxed text-sm dark:text-[#a2a2b1]">Spring Boot, Angular, NodeJS</span>
 				</li>
 				<li class="flex items-center ">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 32 32"
@@ -118,7 +118,7 @@
 						/></svg
 					>
 
-					<span class=" text-sm  leading-relaxed">Git, Github, Docker</span>
+					<span class=" text-sm  leading-relaxed dark:text-[#a2a2b1]">Git, Github, Docker</span>
 				</li>
 				<li class="flex items-center ">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 32 32"
@@ -128,7 +128,7 @@
 						/></svg
 					>
 
-					<span class="leading-relaxed text-sm">German, English</span>
+					<span class="leading-relaxed text-sm dark:text-[#a2a2b1]">German, English</span>
 				</li>
 			</ul>
 		</div>

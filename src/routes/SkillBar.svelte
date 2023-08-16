@@ -11,7 +11,7 @@
 		<span class="float-left dark:text-neutral-300 text-neutral-700  tracking-[0.005em]  "
 			>{title}</span
 		>
-		<span class="float-right dark:text-inherit text-neutral-600  tracking-[-0.010em]"
+		<span class="float-right dark:text-[#a2a2b1] text-neutral-600  tracking-[-0.010em]"
 			>{percentage}</span
 		>
 		<div class="clear-both" />
