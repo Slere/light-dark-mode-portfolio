@@ -13,7 +13,7 @@
 	const dispatch = createEventDispatcher();
 </script>
 
-<div class=" px-4 pt-4 pb-2 md:mb-4 md:rounded-lg  mx-4  md:mx-10 lg:mx-auto lg:max-w-[630px]">
+<div class="md:border  bg-[#fbfcfd] border-t dark:border-none dark:bg-inherit md:shadow-none md:dark:shadow-none dark:px-4 px-8 pt-4 pb-2 md:mb-4 md:rounded-lg   dark:mx-4 dark:md:mx-10 dark:lg:mx-auto  md:mx-6 lg:mx-auto lg:max-w-[677px]">
 	<div class="w-full h-fit    relative ">
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div

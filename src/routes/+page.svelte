@@ -144,7 +144,7 @@
 </script>
 
 <!-- bg-[#fbfcfd] -->
-<div class="lg:max-w-6xl h-full lg:mx-auto flex ">
+<div class="lg:max-w-5xl h-full lg:mx-auto flex ">
 	<div
 		use:clickedOutsiteMobileMenuDispatcher
 		on:outclick={() => (isMobileMenuShown = false)}
