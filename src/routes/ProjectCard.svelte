@@ -34,7 +34,7 @@
 				class="px-3 bg-[#fbfcfd] dark:bg-[#2e283d] relative  bottom-0 left-0   w-full   dark:md:bg-[#2e283d] h-9  opacity-100  flex justify-center "
 			>
 				<span
-					class=" group-hover:h-fit  self-center  font-medium  leading-3	text-[0.9rem] dark:text-[#998db4]  md:dark:bg-inherit rounded-lg text-neutral-700 flex items-center"
+					class=" group-hover:h-fit  self-center  font-medium  leading-3	text-[0.9rem] dark:text-[#9f97b4]  md:dark:bg-inherit rounded-lg text-neutral-700 flex items-center"
 				>
 					<!-- svelte-ignore a11y-missing-attribute -->
 					<!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -72,7 +72,7 @@
 				class="relative md:absolute bottom-0 left-0 w-full  bg-[#fbfcfd] dark:bg-[#2e283d] h-8 opacity-100  flex justify-center "
 			>
 				<span
-					class=" group-hover:h-fit text-sm  self-center  font-medium  dark:text-[#7d7492] text-neutral-500"
+					class=" group-hover:h-fit text-sm  self-center  font-medium  dark:text-[#675f7a] text-neutral-500"
 				>
 					coming soon...
 				</span>
