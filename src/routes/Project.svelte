@@ -13,7 +13,7 @@
 	const dispatch = createEventDispatcher();
 </script>
 
-<div class=" px-4 pt-4 pb-2 md:mb-4 md:rounded-lg  mx-4 md:mx-10 lg:mx-auto lg:max-w-[630px]">
+<div class=" px-4 pt-4 pb-2 md:mb-4 md:rounded-lg  mx-4  md:mx-10 lg:mx-auto lg:max-w-[630px]">
 	<div class="w-full h-fit    relative ">
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div
@@ -36,10 +36,10 @@
 		>
 			{title}
 		</h1>
-		<div class="flex flex-wrap gap-[0.4rem] md:gap-2 mb-6  ">
+		<div class="flex flex-wrap gap-[0.4rem] md:gap-2 mb-6">
 			{#each tags as tag, i}
 				<span
-					class="px-3  shadow-sm  text-sm   rounded-lg py-1 dark:text-gray-700 text-neutral-500 dark:bg-[#c2abf8] bg-[#bef5ca] tracking-tight"
+					class="px-3  shadow-sm  text-sm   rounded-lg py-1 dark:text-gray-700 text-neutral-500 dark:bg-[#b197eb] bg-[#bef5ca] tracking-tight"
 				>
 					{tag}</span
 				>
@@ -47,7 +47,7 @@
 		</div>
 	</div>
 
-	<div class="w-full h-fit          ">
+	<div class="w-full h-fit ">
 		{#each sections as section}
 			<div class="dark:border border-[#3c3452] dark:rounded-lg dark:bg-[#2e283d] dark:mb-4">
 				<h1

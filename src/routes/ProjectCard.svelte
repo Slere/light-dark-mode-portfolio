@@ -28,13 +28,13 @@
 
 		{#if !isUnderConstruction}
 			<div
-				class="absolute md:bottom-7 bottom-7 left-0 w-full   bg-gradient-to-t  dark:from-[#2e283d] from-[#fbfcfd] to-transparent h-2 "
+				class="absolute bottom-8 left-0 w-full   bg-gradient-to-t  dark:from-[#2e283d] from-[#fbfcfd] to-transparent h-2 "
 			/>
 			<div
-				class="px-3 bg-[#fbfcfd] dark:bg-[#2e283d] relative  bottom-0 left-0   w-full   dark:md:bg-[#2e283d] h-8  opacity-100  flex justify-center "
+				class="px-3 bg-[#fbfcfd] dark:bg-[#2e283d] relative  bottom-0 left-0   w-full   dark:md:bg-[#2e283d] h-9  opacity-100  flex justify-center "
 			>
 				<span
-					class=" group-hover:h-fit  self-center  font-medium  leading-3	text-[0.9rem] dark:text-neutral-300  md:dark:bg-inherit rounded-lg text-neutral-700 flex items-center"
+					class=" group-hover:h-fit  self-center  font-medium  leading-3	text-[0.9rem] dark:text-[#998db4]  md:dark:bg-inherit rounded-lg text-neutral-700 flex items-center"
 				>
 					<!-- svelte-ignore a11y-missing-attribute -->
 					<!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -49,7 +49,7 @@
 							href={github}
 							target="_blank"
 							rel="noreferrer"
-							class="pointer-events-none group-hover:pointer-events-auto group-hover:cursor-pointer px-1 underline-offset-2 hover:underline capitalize hover:text-[#5d806d] dark:hover:text-neutral-100"
+							class="pointer-events-none group-hover:pointer-events-auto group-hover:cursor-pointer px-1 underline-offset-2 hover:underline capitalize hover:text-[#24bb68] dark:hover:text-neutral-100"
 							><svg
 								xmlns="http://www.w3.org/2000/svg"
 								width="24"
@@ -72,7 +72,7 @@
 				class="relative md:absolute bottom-0 left-0 w-full  bg-[#fbfcfd] dark:bg-[#2e283d] h-8 opacity-100  flex justify-center "
 			>
 				<span
-					class=" group-hover:h-fit text-sm  self-center  font-medium  dark:text-neutral-400  text-neutral-500"
+					class=" group-hover:h-fit text-sm  self-center  font-medium  dark:text-[#7d7492] text-neutral-500"
 				>
 					coming soon...
 				</span>

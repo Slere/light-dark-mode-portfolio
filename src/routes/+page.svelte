@@ -170,7 +170,7 @@
 			overflow: { x: 'hidden', y: 'scroll' }
 		}}
 	>
-		<div class="absolute top-0 right-0 z-10  py-4 md:py-4 pl-3 flex">
+		<div class="absolute top-0 right-0 z-10  pt-4 flex ">
 			<!-- svelte-ignore a11y-click-events-have-key-events -->
 			<svg
 				id="menuButton"
@@ -252,25 +252,7 @@
 				</p></a
 			>
 		</div>
-		<!-- <div
-			class=" md:ml-1 shadow dark:shadow-lg dark:shadow-[#27272a] border-[#29292b] before:-mx-2 md:before:-mx-0 relative w-[calc(100%)]  min-h-[210px]  aspect-[12/4] dark:before:bg-[url('/hero/Peaceful-Snowy-Mountains-At-Night.jpg')] before:bg-[url('/hero/pexels-tomasz-filipek-1630037.jpg')] before:bg-cover  before:opacity-80  before:absolute before:top-0 before:right-0 before:bottom-0 before:left-0 flex place-items-center"
-		>
-			<div class=" text-neutral-100 h-fit z-10 pl-3 pr-12">
-				
-				<h2
-					class="font-normal mt-8 md:mt-0 dark:text-neutral-300 text-neutral-600 tracking-tight text-xl leading-6  lg:text-2xl lg:tracking-tight  dark:bg-neutral-800/60 bg-neutral-100/50  p-4 "
-				>
-					<span class="whitespace-nowrap"
-						>project repository | portfolio<span class=" dark:text-amber-300 text-sky-800">.</span>
-					</span><br />
-					<span class="whitespace-nowrap "
-						>light & dark | tailwindcss | sveltekit<span class=" dark:text-amber-300 text-sky-800"
-							>.</span
-						>
-					</span>
-				</h2>
-			</div>
-		</div> -->
+		
 		{#key project}
 			<div in:fade class="h-fit mt-8 ">
 				{#if project === undefined}
