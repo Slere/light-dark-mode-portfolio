@@ -274,7 +274,7 @@
 		{#key project}
 			<div in:fade class="h-fit mt-8 ">
 				{#if project === undefined}
-					<div class="w-full h-fit pr-[2px] xl:pr-0 bg-[#fbfcfd] dark:bg-[#2f2b3a] md:bg-inherit dark:md:bg-inherit dark:border-none border-t  dark:border-neutral-800 md:border-none">
+					<div class="w-full h-fit pr-[2px] xl:pr-0 bg-[#fbfcfd] dark:bg-inherit md:bg-inherit dark:md:bg-inherit dark:border-none border-t  dark:border-neutral-800 md:border-none">
 						<h1
 							class="text-xl  tracking-tight  capitalize font-light dark:text-neutral-200 text-neutral-600   px-2 xs:pl-2 md:pl-4 py-2 pt-2   border-[#29292b]  bg-inherit "
 						>
@@ -283,11 +283,8 @@
 					</div>
 
 					<div
-						class=" pb-2  px-2 xxs:px-2 xs:px-4 md:px-10 w-full flex items-start  justify-center md:justify-start flex-wrap md:grid md:gap-6 bg-[#fbfcfd] dark:bg-[#2f2b3a] md:bg-inherit dark:md:bg-inherit
-						
-			
-						md:grid-cols-[repeat(auto-fill,minmax(190px,1fr))] 
-						lg:grid-cols-[repeat(auto-fill,minmax(200px,1fr))] "
+						class=" pb-2  px-2 xxs:px-2 xs:px-4 md:px-6 lg:px-8 w-full flex items-stretch  justify-center  flex-wrap bg-[#fbfcfd] dark:bg-inherit md:bg-inherit dark:md:bg-inherit
+						 "
 					>
 						{#each projects as pr}
 							<ProjectCard

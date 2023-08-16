@@ -9,29 +9,29 @@
 </script>
 
 <div
-	class=" dark:md:shadow-md flex-auto max-w-[377px]  xs:basis-48   md:h-auto mx-4 mb-12 last:mb-2  md:m-0   md:max-w-none md:min-w-none  md:shadow-md md:hover:shadow-lg 	rounded-lg xxs:rounded-none xs:rounded-lg dark:shadow-neutral-900/70    group  dark:md:to-[#2f2b3a] dark:md:from-[#2f2b3a] dark:md:via-[#2f2b3a] md:bg-[#fbfcfd] dark:md:bg-gradient-to-b dark:bg-inherit  md:px-6 md:pt-6 md:pb-4 	 md:aspect-[16/15] lg:aspect-[16/15]    relative   overflow-hidden "
+	class=" md:dark:border dark:border dark:border-[#3c3452] dark:md:shadow-md flex-auto max-w-[377px] md:max-w-[300px]  xs:basis-48   md:h-auto mx-3 mb-8  dark:mb-6       md:min-w-none  md:shadow-md md:hover:shadow-lg 	rounded-lg  dark:shadow-neutral-900/70    group  dark:to-[#2e283d] dark:from-[#2e283d] dark:via-[#2e283d] md:bg-[#fbfcfd] dark:bg-gradient-to-b   p-3 pb-0	    relative   overflow-hidden "
 >
 	<div class="h-full  overflow-hidden ">
 		<div class="w-[calc(100%)]">
 			<h1
-				class="  dark:bg-inherit 	 dark:text-[#ffffff] text-neutral-600  text-base font-normal   pl-2 mb-[2px]   overflow-hidden  whitespace-nowrap text-ellipsis"
+				class="dark:bg-inherit 	 dark:text-[#ffffff] text-neutral-600  text-base font-normal   pl-2 mb-[2px]   overflow-hidden  whitespace-nowrap text-ellipsis"
 			>
 				{title}
 			</h1>
 		</div>
 
 		<p
-			class="max-h-[20vh] min-h-[50px] text-[0.85rem] dark:font-normal font-normal  leading-[1.3rem] tracking-wide px-2   dark:text-[#908d96] text-neutral-500 break-words"
+			class="max-h-[20vh] min-h-[50px] text-[0.85rem] dark:font-normal font-normal  leading-[1.3rem] tracking-wide px-2   dark:text-[#828192] text-neutral-500 break-words"
 		>
-			{summary}
+			{summary}	
 		</p>
 
 		{#if !isUnderConstruction}
 			<div
-				class="absolute md:bottom-7 bottom-7 left-0 w-full   bg-gradient-to-t dark:md:from-[#2f2b3a] dark:from-[#2f2b3a] from-[#fbfcfd] to-transparent h-2 "
+				class="absolute md:bottom-7 bottom-7 left-0 w-full   bg-gradient-to-t  dark:from-[#2e283d] from-[#fbfcfd] to-transparent h-2 "
 			/>
 			<div
-				class="px-3    group-hover:bg-gray-50 dark:group-hover:bg-[#2f2b3a] bg-[#fbfcfd] dark:bg-[#2f2b3a] relative md:absolute bottom-0 left-0   w-full   dark:md:bg-[#2f2b3a] h-8  opacity-100  flex justify-center "
+				class="px-3 bg-[#fbfcfd] dark:bg-[#2e283d] relative  bottom-0 left-0   w-full   dark:md:bg-[#2e283d] h-8  opacity-100  flex justify-center "
 			>
 				<span
 					class=" group-hover:h-fit  self-center  font-medium  leading-3	text-[0.9rem] dark:text-neutral-300  md:dark:bg-inherit rounded-lg text-neutral-700 flex items-center"
@@ -66,10 +66,10 @@
 			</div>
 		{:else}
 			<div
-				class="absolute md:bottom-5 bottom-0 left-0 w-full   bg-gradient-to-t dark:from-[#2f2b3a] from-[#fbfcfd] to-transparent h-2 "
+				class="absolute md:bottom-5 bottom-5 left-0 w-full   bg-gradient-to-t dark:from-[#2e283d] from-[#fbfcfd] to-transparent h-2 "
 			/>
 			<div
-				class="relative md:absolute bottom-0 left-0 w-full  bg-[#fbfcfd] dark:bg-[#2f2b3a] h-6 opacity-100  flex justify-center "
+				class="relative md:absolute bottom-0 left-0 w-full  bg-[#fbfcfd] dark:bg-[#2e283d] h-8 opacity-100  flex justify-center "
 			>
 				<span
 					class=" group-hover:h-fit text-sm  self-center  font-medium  dark:text-neutral-400  text-neutral-500"

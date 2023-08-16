@@ -13,7 +13,7 @@
 	const dispatch = createEventDispatcher();
 </script>
 
-<div class=" px-4 pt-4 pb-2 md:mb-4  dark:bg-[#2f2b3a] md:rounded-lg  mx-0 md:mx-10 lg:mx-10">
+<div class=" px-4 pt-4 pb-2 md:mb-4 md:rounded-lg  mx-4 md:mx-10 lg:mx-auto lg:max-w-[630px]">
 	<div class="w-full h-fit    relative ">
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div
@@ -49,30 +49,32 @@
 
 	<div class="w-full h-fit          ">
 		{#each sections as section}
-			<h1
-				class=" text-xl mb-0 py-1 -ml-1  dark:text-neutral-300 text-neutral-600 border-b-0 border-neutral-600 "
-			>
-				<p class="flex  items-center">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						viewBox="0 0 24 24"
-						fill="currentColor"
-						class="w-6 h-6 dark:text-[#9171f8] text-[#5d806d]"
-					>
-						<path
-							fill-rule="evenodd"
-							d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
-							clip-rule="evenodd"
-						/>
-					</svg>
-					{section.title}
+			<div class="dark:border border-[#3c3452] dark:rounded-lg dark:bg-[#2e283d] dark:mb-4">
+				<h1
+					class="dark:pl-2 dark:border-b dark:border-[#3c3452] text-xl mb-0 py-1   dark:text-neutral-300 text-neutral-600 border-b-0 border-neutral-600 "
+				>
+					<p class="flex  items-center">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 24 24"
+							fill="currentColor"
+							class="w-6 h-6 dark:text-[#9171f8] text-[#5d806d] dark:hidden"
+						>
+							<path
+								fill-rule="evenodd"
+								d="M16.28 11.47a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 011.06-1.06l7.5 7.5z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+						{section.title}
+					</p>
+				</h1>
+				<p
+					class="px-6 dark:py-4 dark:font-normal font-light  dark:text-[#a29dac] text-neutral-500 text-[0.96rem] tracking-wide leading-[1.35rem] mb-6 dark:mb-0"
+				>
+					{@html section.content}
 				</p>
-			</h1>
-			<p
-				class="px-6 dark:font-normal font-light  dark:text-[#9d99a3] text-neutral-500 text-[0.96rem] tracking-wide leading-[1.35rem] mb-6"
-			>
-				{@html section.content}
-			</p>
+			</div>
 		{/each}
 	</div>
 	<div class="w-fit mx-auto  rounded    mt-1  ">
@@ -103,9 +105,8 @@
 				</p></a
 			>
 		{/if}
-	</div>	
+	</div>
 </div>
-
 
 <style lang="postcss">
 </style>

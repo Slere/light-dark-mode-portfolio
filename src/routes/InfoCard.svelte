@@ -9,7 +9,7 @@
 	<!-- #39393d -->
 	<div class="   ">
 		<div
-			class="pt-8 md:pt-6  pb-6 md:ml-3 md:mr-1  md:mt-2  to-[#cee99d] from-[#74ddb1] bg-gradient-to-tr md:rounded-lg  dark:from-[#302c3d] dark:to-[#2e2a3a] dark:shadow-none shadow-md md:shadow-neutral-400"
+			class="dark:border-[#42395a] dark:md:border  pt-8 md:pt-6  pb-6 md:ml-3 md:mr-1  md:mt-2  to-[#cee99d] from-[#74ddb1] bg-gradient-to-tr md:rounded-lg  dark:from-[#282338] dark:to-[#2e283d] dark:shadow-none shadow-md md:shadow-neutral-400"
 		>
 			<div
 				class="mx-auto h-28 w-28 mb-2   rounded-full dark:bg-[url('/profile/no-profile-picture-icon.svg')] bg-[url('/profile/no-profile-picture-icon-light.svg')] bg-contain"
@@ -24,9 +24,9 @@
 	</div>
 
 
-	<div class="p-4	 md:mt-4   bg-[#fbfcfd] dark:bg-[#2c2836] md:border dark:border-none  ml-0 md:ml-2 dark:md:ml-0 md:mb-2 md:rounded-lg">
+	<div class=" p-4	dark:md:border dark:border-[#3e394d] md:mt-4   bg-[#fbfcfd] dark:bg-[#2c2836] md:border   ml-0 md:ml-2  md:mb-2 md:rounded-lg">
 		<div
-			class=" mb-2 border-b-2 font-medium dark:border-neutral-700 border-neutral-200 h-fit pb-4 font-base text-[0.91rem] tracking-[0.01em] leading-6 "
+			class=" mb-2 border-b-2 font-medium dark:border-[#4f4d5c] border-neutral-200 h-fit pb-4 font-base text-[0.91rem] tracking-[0.01em] leading-6 "
 		>
 			<span class="float-left dark:text-inherit text-neutral-500"
 				>Residence: <br />City: <br />Age:</span
@@ -37,7 +37,7 @@
 
 			<div class="clear-both" />
 		</div>
-		<div class="mb-2 border-b-2 dark:border-neutral-700 border-neutral-200 h-fit pb-4">
+		<div class="mb-2 border-b-2 dark:border-[#4f4d5c] border-neutral-200 h-fit pb-4">
 			<h2 class="dark:text-neutral-200 text-neutral-700 font-medium ">Code</h2>
 
 			<SkillBar
@@ -66,7 +66,7 @@
 				imgHTML={"<img class=' saturate-[1] ' alt='java' src='/logos/java.svg' />"}
 			/>
 		</div>
-		<div class="mb-2 border-b-2 dark:border-neutral-700 border-neutral-200 h-fit pb-4">
+		<div class="mb-2 border-b-2 dark:border-[#4f4d5c] border-neutral-200 h-fit pb-4">
 			<h2 class="dark:text-neutral-200 text-neutral-700 font-medium">Frameworks</h2>
 			<SkillBar
 				percentage={'85%'}
@@ -84,7 +84,7 @@
 				imgHTML={"<img class='' alt='tailwindcss' src='/logos/tailwind.svg' />"}
 			/>
 		</div>
-		<div class="mb-2 border-b-2 dark:border-neutral-700 border-neutral-200 h-fit pb-4">
+		<div class="mb-2 border-b-2 dark:border-[#4f4d5c] border-neutral-200 h-fit pb-4">
 			<h2 class="dark:text-neutral-200 text-neutral-700 font-medium">Databases</h2>
 			<SkillBar
 				percentage={'85%'}
@@ -103,7 +103,7 @@
 				<li class="flex items-center ">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 32 32"
 						><path
-							class="dark:fill-amber-400 fill-[#57b68e]"
+							class="dark:fill-[#6e65ad] fill-[#57b68e]"
 							d="M28.21 2.4a3.5 3.5 0 0 1 1.344 4.763l-11.51 20.554a4 4 0 0 1-6.135 1.047L3.186 21.08a3.5 3.5 0 0 1 4.628-5.252l5.936 5.23l9.696-17.314A3.5 3.5 0 0 1 28.21 2.4Z"
 						/></svg
 					>
@@ -113,7 +113,7 @@
 				<li class="flex items-center ">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 32 32"
 						><path
-							class="dark:fill-amber-400 fill-[#57b68e]"
+							class="dark:fill-[#6e65ad] fill-[#57b68e]"
 							d="M28.21 2.4a3.5 3.5 0 0 1 1.344 4.763l-11.51 20.554a4 4 0 0 1-6.135 1.047L3.186 21.08a3.5 3.5 0 0 1 4.628-5.252l5.936 5.23l9.696-17.314A3.5 3.5 0 0 1 28.21 2.4Z"
 						/></svg
 					>
@@ -123,7 +123,7 @@
 				<li class="flex items-center ">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 32 32"
 						><path
-							class="dark:fill-amber-400 fill-[#57b68e]"
+							class="dark:fill-[#6e65ad] fill-[#57b68e]"
 							d="M28.21 2.4a3.5 3.5 0 0 1 1.344 4.763l-11.51 20.554a4 4 0 0 1-6.135 1.047L3.186 21.08a3.5 3.5 0 0 1 4.628-5.252l5.936 5.23l9.696-17.314A3.5 3.5 0 0 1 28.21 2.4Z"
 						/></svg
 					>
@@ -138,7 +138,7 @@
 				href="https://github.com/Slere"
 				target="_blank"
 				rel="noreferrer"
-				class="flex place-content-center w-fit mx-auto hover:underline no-underline dark:decoration-amber-300 decoration-neutral-50 decoration-2 underline-offset-2 text-neutral-50 "
+				class="flex place-content-center w-fit mx-auto hover:underline no-underline dark:decoration-[#6e65ad] decoration-neutral-50 decoration-2 underline-offset-2 text-neutral-50 "
 				>Slere <img class="ml-1 max-h-[25px]  " alt="github" src="/logos/github-white.svg" /></a
 			>
 		</div>
