@@ -9,7 +9,7 @@
 </script>
 
 <div
-	class="pb-0 md:dark:border dark:border dark:border-[#3c3452] dark:md:shadow-md flex-auto content-end  max-w-[377px] md:max-w-[250px]  xs:basis-48   md:h-auto mx-3 mb-8  dark:mb-6       md:min-w-none  md:shadow-md md:hover:shadow-lg 	rounded-lg  dark:shadow-neutral-900/70    group  dark:to-[#2e283d] dark:from-[#2e283d] dark:via-[#2e283d] md:bg-[#fbfcfd] dark:bg-gradient-to-b   p-3 	    relative   overflow-hidden "
+	class=" pb-0 md:dark:border dark:border dark:border-[#3c3452] dark:md:shadow-md flex-auto content-end  max-w-[377px] md:max-w-[250px]  xs:basis-48   md:h-auto mx-3 mb-8  dark:mb-6       md:min-w-none  md:shadow-md md:hover:shadow-lg 	rounded-lg  dark:shadow-neutral-900/70    group  dark:to-[#2e283d] dark:from-[#2e283d] dark:via-[#2e283d] md:bg-[#fbfcfd] dark:bg-gradient-to-b   p-3 	    relative   overflow-hidden "
 >
 	<div class=" overflow-hidden">
 		<div class="w-[calc(100%)]">
@@ -21,7 +21,7 @@
 		</div>
 
 		<p
-			class=" max-h-[20vh] min-h-[100px] text-[0.85rem] dark:font-normal font-normal  leading-[1.3rem] tracking-wide px-2   dark:text-[#828192] text-neutral-500 break-words"
+			class=" max-h-[20vh] min-h-[120px] text-[0.85rem] dark:font-normal font-normal  leading-[1.3rem] tracking-wide px-2   dark:text-[#9590a1] text-neutral-500 break-words"
 		>
 			{summary}
 		</p>
@@ -34,7 +34,7 @@
 			class="px-3 bg-[#fbfcfd] dark:bg-[#2e283d]  absolute bottom-0 left-0  w-full   dark:md:bg-[#2e283d] h-9  opacity-100  flex justify-center "
 		>
 			<span
-				class=" group-hover:h-fit  self-center  font-medium  leading-3	text-[0.9rem] dark:text-[#9f97b4]  md:dark:bg-inherit rounded-lg text-neutral-700 flex items-center"
+				class=" group-hover:h-fit  self-center  font-medium  leading-3	text-[0.9rem] dark:text-[#cdc6dd]  md:dark:bg-inherit rounded-lg text-neutral-700 flex items-center"
 			>
 				<!-- svelte-ignore a11y-missing-attribute -->
 				<!-- svelte-ignore a11y-click-events-have-key-events -->
