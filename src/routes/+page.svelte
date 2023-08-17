@@ -164,7 +164,7 @@
 	</div>
 
 	<OverlayScrollbarsComponent
-		class=" w-full max-h-full shrink-[2]   pl-[2px]  pb-[2px]   "
+		class=" w-full max-h-full shrink-[2]     pb-[2px]   "
 		options={{
 			scrollbars: { autoHide: 'scroll', autoHideDelay: 500, theme: 'os-theme-light' },
 			overflow: { x: 'hidden', y: 'scroll' }
@@ -229,7 +229,7 @@
 			>
 				Software Developer Portfolio and quick fact sheet
 			</h1>
-			<p class="text-neutral-500 dark:text-neutral-400 text-lg max-w-[377px] mx-auto mt-4">
+			<p class="text-stone-600 md:text-neutral-500 dark:text-neutral-400 text-lg max-w-[377px] mx-auto mt-4">
 				Repository to showcase all of my recent projects in both light & dark mode. Made with Sveltekit and TailwindCSS 
 			</p>
 			<a
@@ -256,16 +256,16 @@
 		{#key project}
 			<div in:fade class="h-fit mt-8 ">
 				{#if project === undefined}
-					<div class="w-full h-fit pr-[2px] xl:pr-0 bg-[#fbfcfd] dark:bg-inherit md:bg-inherit dark:md:bg-inherit dark:border-none border-t  dark:border-neutral-800 md:border-none">
+					<div class="w-full h-fit pr-[2px] xl:pr-0 dark:bg-inherit md:bg-inherit dark:md:bg-inherit dark:border-none  dark:border-neutral-800 md:border-none">
 						<h1
-							class="text-xl  tracking-tight  capitalize font-light dark:text-neutral-200 text-neutral-600   px-2 xs:pl-2 md:pl-4 py-2 pt-2   border-[#29292b]  bg-inherit "
+							class="text-xl  tracking-tight  capitalize font-light dark:text-neutral-200 md:text-neutral-600  text-stone-600  px-2 xs:pl-2 md:pl-4 py-2 pt-2   border-[#29292b]  bg-inherit "
 						>
 							My projects
 						</h1>
 					</div>
 
 					<div
-						class=" pb-2  px-2 xxs:px-2 xs:px-4 md:px-6 lg:px-6 w-full flex items-stretch  justify-center  flex-wrap bg-[#fbfcfd] dark:bg-inherit md:bg-inherit dark:md:bg-inherit
+						class=" pb-2  px-2 xxs:px-2 xs:px-4 md:px-6 lg:px-6 w-full flex items-stretch  justify-center  flex-wrap bg-inherit dark:bg-inherit md:bg-inherit dark:md:bg-inherit
 						 "
 					>
 						{#each projects as pr}
