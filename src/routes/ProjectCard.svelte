@@ -9,7 +9,7 @@
 </script>
 
 <div
-	class="bg-[#fbfcfd] shadow-md dark:shadow-none pb-0 md:dark:border dark:border dark:border-[#3c3452] dark:md:shadow-md flex-auto content-end  max-w-[250px] md:max-w-[250px]  xs:basis-48   md:h-auto mx-3 mb-8  dark:mb-6       md:min-w-none  md:shadow-md md:hover:shadow-lg 	rounded-lg  dark:shadow-neutral-900/70    group  dark:to-[#2e283d] dark:from-[#2e283d] dark:via-[#2e283d] md:bg-[#fbfcfd] dark:bg-gradient-to-b   p-3 	    relative   overflow-hidden "
+	class="bg-[#fbfcfd] shadow-md dark:shadow-none pb-0 md:dark:border dark:border dark:border-[#3c3452] dark:md:shadow-md flex-auto content-end  max-w-[250px] md:max-w-[250px]  xs:basis-48   md:h-auto mx-3 mb-8  dark:mb-6       md:min-w-none  md:shadow-md hover:shadow-lg 	rounded-lg  dark:shadow-neutral-900/70    group md:bg-[#fbfcfd] dark:bg-[#2e283d]  p-3 	    relative   overflow-hidden "
 >
 	<div class=" overflow-hidden">
 		<div class="w-[calc(100%)]">
@@ -39,7 +39,7 @@
 				<!-- svelte-ignore a11y-missing-attribute -->
 				<!-- svelte-ignore a11y-click-events-have-key-events -->
 				<a
-					class=" dark:md:bg-inherit    rounded-xl  pointer-events-none group-hover:pointer-events-auto group-hover:cursor-pointer px-2	 underline-offset-2 underline capitalize hover:text-inherit dark:hover:text-neutral-300"
+					class=" dark:md:bg-inherit    rounded-xl  pointer-events-none group-hover:pointer-events-auto group-hover:cursor-pointer px-2	 underline-offset-2 underline capitalize  dark:hover:text-neutral-300 hover:text-[#97c797]"
 					on:click={() => {
 						dispatch('project', { project: projectID });
 					}}>read</a
@@ -49,7 +49,7 @@
 						href={github}
 						target="_blank"
 						rel="noreferrer"
-						class="pointer-events-none group-hover:pointer-events-auto group-hover:cursor-pointer px-1 underline-offset-2 hover:underline capitalize hover:text-[#24bb68] dark:hover:text-neutral-100"
+						class="pointer-events-none group-hover:pointer-events-auto group-hover:cursor-pointer px-1 underline-offset-2 hover:underline capitalize hover:text-[#97c797] dark:hover:text-neutral-100"
 						><svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="24"
