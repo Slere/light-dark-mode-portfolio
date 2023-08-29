@@ -21,14 +21,14 @@
 		</div>
 
 		<p
-			class=" max-h-[20vh] min-h-[120px] text-[0.85rem] dark:font-normal font-normal  leading-[1.3rem] tracking-wide px-2   dark:text-[#9590a1] text-neutral-500 break-words"
+			class=" max-h-[20vh] min-h-[120px] text-sm dark:font-normal font-light  leading-[1.3rem] tracking-wide px-2   dark:text-[#9590a1] text-neutral-500 break-words"
 		>
 			{summary}
 		</p>
 	</div>
 	{#if !isUnderConstruction}
 		<div
-			class="absolute bottom-8 left-0 w-full   bg-gradient-to-t  dark:from-[#2e283d] from-[#fbfcfd] to-transparent h-2 "
+			class="absolute bottom-8 left-0 w-full   bg-gradient-to-t  dark:from-[#2e283d] from-[#fbfcfd] to-transparent h-3 "
 		/>
 		<div
 			class="px-3 bg-[#fbfcfd] dark:bg-[#2e283d]  absolute bottom-0 left-0  w-full   dark:md:bg-[#2e283d] h-9  opacity-100  flex justify-center "
@@ -66,7 +66,7 @@
 		</div>
 	{:else}
 		<div
-			class="absolute bottom-8 left-0 w-full   bg-gradient-to-t dark:from-[#2e283d] from-[#fbfcfd] to-transparent h-2 "
+			class="absolute bottom-8 left-0 w-full   bg-gradient-to-t dark:from-[#2e283d] from-[#fbfcfd] to-transparent h-3 "
 		/>
 		<div
 			class="absolute bottom-0 left-0 w-full  bg-[#fbfcfd] dark:bg-[#2e283d] h-9 opacity-100  flex justify-center "

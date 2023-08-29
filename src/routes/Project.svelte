@@ -40,7 +40,7 @@
 		<div class="flex flex-wrap gap-[0.4rem] md:gap-2 mb-6">
 			{#each tags as tag, i}
 				<span
-					class="px-3  shadow-sm  text-sm   rounded-lg py-1 dark:text-gray-700 text-neutral-500 dark:bg-[#a58fd4] bg-[#e8e9e8] tracking-tight"
+					class="px-3  shadow-sm  text-sm text-[0.83rem] leading-[1.1rem]   rounded-lg py-1 dark:text-gray-700 text-neutral-500 dark:bg-[#a58fd4] bg-[#e8e9e8] tracking-tight"
 				>
 					{tag}</span
 				>
@@ -71,7 +71,7 @@
 					</p>
 				</h1>
 				<p
-					class="px-6 dark:py-4 dark:font-normal font-light  dark:text-[#a29dac] text-neutral-500 text-[0.96rem] tracking-wide leading-[1.35rem] mb-6 dark:mb-0"
+					class="px-6 dark:py-4 dark:font-normal font-light  dark:text-[#a29dac] text-neutral-500 text-[0.96rem] tracking-wide leading-[1.40rem] mb-6 dark:mb-0"
 				>
 					{@html section.content}
 				</p>

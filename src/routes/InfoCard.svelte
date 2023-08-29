@@ -15,7 +15,7 @@
 				class="mx-auto h-28 w-28 mb-2   rounded-full dark:bg-[url('/profile/no-profile-picture-icon.svg')] bg-[url('/profile/no-profile-picture-icon-light.svg')] bg-contain"
 			/>
 			<p
-				class="text-center  text-2xl tracking-tight font-normal    dark:text-neutral-200 text-neutral-700"
+				class="text-center  text-2xl  tracking-tight font-normal    dark:text-neutral-200 text-neutral-700"
 			>
 				Rene Ensle
 			</p>
