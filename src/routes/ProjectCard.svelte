@@ -9,7 +9,7 @@
 </script>
 
 <div
-	class="bg-[#fbfcfd] shadow-md dark:shadow-none pb-0 md:dark:border dark:border dark:border-[#3c3452] dark:md:shadow-md flex-auto content-end  max-w-[250px] md:max-w-[250px]  xs:basis-48   md:h-auto mx-3 mb-8  dark:mb-6       md:min-w-none  md:shadow-md hover:shadow-lg 	rounded-lg  dark:shadow-neutral-900/70    group md:bg-[#fbfcfd] dark:bg-[#2e283d]  p-3 	    relative   overflow-hidden "
+	class="bg-[#fbfcfd] shadow-md dark:shadow-none pb-0 md:dark:border dark:border dark:border-[#3c3452] dark:md:shadow-md flex-auto content-end  max-w-[250px] md:max-w-[250px]  xs:basis-48   md:h-auto mx-3 mb-8  dark:mb-6       md:min-w-none  md:shadow-md hover:shadow-lg 	rounded-lg  dark:shadow-neutral-900/70    group md:bg-[#fbfcfd] dark:bg-[#1e192b]  p-3 	    relative   overflow-hidden "
 >
 	<div class=" overflow-hidden">
 		<div class="w-[calc(100%)]">
@@ -28,10 +28,10 @@
 	</div>
 	{#if !isUnderConstruction}
 		<div
-			class="absolute bottom-8 left-0 w-full   bg-gradient-to-t  dark:from-[#2e283d] from-[#fbfcfd] to-transparent h-3 "
+			class="absolute bottom-8 left-0 w-full   bg-gradient-to-t  dark:from-[#1e192b] from-[#fbfcfd] to-transparent h-3 "
 		/>
 		<div
-			class="px-3 bg-[#fbfcfd] dark:bg-[#2e283d]  absolute bottom-0 left-0  w-full   dark:md:bg-[#2e283d] h-9  opacity-100  flex justify-center "
+			class="px-3 bg-[#fbfcfd] dark:bg-[#1e192b]  absolute bottom-0 left-0  w-full   dark:md:bg-[#1e192b] h-9  opacity-100  flex justify-center "
 		>
 			<span
 				class=" group-hover:h-fit  self-center  font-medium  leading-3	text-[0.9rem] dark:text-[#cdc6dd]  md:dark:bg-inherit rounded-lg text-neutral-700 flex items-center"
@@ -66,10 +66,10 @@
 		</div>
 	{:else}
 		<div
-			class="absolute bottom-8 left-0 w-full   bg-gradient-to-t dark:from-[#2e283d] from-[#fbfcfd] to-transparent h-3 "
+			class="absolute bottom-8 left-0 w-full   bg-gradient-to-t dark:from-[#1e192b] from-[#fbfcfd] to-transparent h-3 "
 		/>
 		<div
-			class="absolute bottom-0 left-0 w-full  bg-[#fbfcfd] dark:bg-[#2e283d] h-9 opacity-100  flex justify-center "
+			class="absolute bottom-0 left-0 w-full  bg-[#fbfcfd] dark:bg-[#1e192b] h-9 opacity-100  flex justify-center "
 		>
 			<span
 				class=" group-hover:h-fit text-sm  self-center  font-medium  dark:text-[#675f7a] text-neutral-500"

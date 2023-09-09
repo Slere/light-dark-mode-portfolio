@@ -50,7 +50,7 @@
 
 	<div class="w-full h-fit ">
 		{#each sections as section}
-			<div class="dark:border border-[#3c3452] dark:rounded-lg dark:bg-[#2e283d] dark:mb-4">
+			<div class="dark:border border-[#3c3452] dark:rounded-lg dark:bg-[#1e192b] dark:mb-4">
 				<h1
 					class="dark:pl-2 dark:border-b dark:border-[#3c3452] text-xl mb-0 py-1   dark:text-neutral-300 text-neutral-600 border-b-0 border-neutral-600 "
 				>

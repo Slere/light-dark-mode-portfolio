@@ -9,7 +9,7 @@
 	<!-- #39393d -->
 	<div class="   ">
 		<div
-			class="dark:md:border-[#49435a] dark:border-[#3e394d] dark:border-b-2 dark:md:border  pt-8 md:pt-6  pb-6 md:ml-3 md:mr-1  md:mt-2  to-[#cee99d] from-[#74ddb1] bg-gradient-to-tr md:rounded-lg  dark:from-[#34303f] dark:to-[#34303f] dark:shadow-none shadow-md md:shadow-neutral-400"
+			class="dark:md:border-[#4c4855] dark:border-[#4c4855] dark:border-b-2 dark:md:border  pt-8 md:pt-6  pb-6 md:ml-3 md:mr-1  md:mt-2  to-[#cee99d] from-[#74ddb1] bg-gradient-to-tr md:rounded-lg  dark:from-[#292633] dark:to-[#292633] dark:shadow-none shadow-md md:shadow-neutral-400"
 		>
 			<div
 				class="mx-auto h-28 w-28 mb-2   rounded-full dark:bg-[url('/profile/no-profile-picture-icon.svg')] bg-[url('/profile/no-profile-picture-icon-light.svg')] bg-contain"
@@ -24,7 +24,7 @@
 	</div>
 
 
-	<div class=" p-4	dark:md:border dark:border-[#3e394d] md:mt-4   bg-[#fbfcfd] dark:bg-[#2c2836] md:border   ml-0 md:ml-2  md:mb-2 md:rounded-lg">
+	<div class=" p-4	dark:md:border dark:border-[#4c4855] md:mt-4   bg-[#fbfcfd] dark:bg-[#24212e] md:border   ml-0 md:ml-2  md:mb-2 md:rounded-lg">
 		<div
 			class=" mb-2 border-b-2 font-medium dark:border-[#4f4d5c] border-neutral-200 h-fit pb-4 font-base text-[0.91rem] tracking-[0.01em] leading-6 "
 		>
