@@ -9,7 +9,7 @@
 	<!-- #39393d -->
 	<div class="   ">
 		<div
-			class="dark:md:border-[#4c4855] dark:border-[#4c4855] dark:border-b-2 dark:md:border  pt-8 md:pt-6  pb-6 md:ml-3 md:mr-1  md:mt-2  to-[#cee99d] from-[#74ddb1] bg-gradient-to-tr md:rounded-lg  dark:from-[#292633] dark:to-[#292633] dark:shadow-none shadow-md md:shadow-neutral-400"
+			class="dark:md:border-[#3b3a44] dark:border-[#424050] dark:border-b-2 dark:md:border  pt-8 md:pt-6  pb-6 md:ml-3 md:mr-1  md:mt-2 to-[#b8f0d8] from-[#b5d1a2] md:to-[#cee99d] md:from-[#74ddb1] bg-gradient-to-tr md:rounded-lg  dark:from-[#292633] dark:to-[#292633] dark:shadow-none shadow-md md:shadow-neutral-400"
 		>
 			<div
 				class="mx-auto h-28 w-28 mb-2   rounded-full dark:bg-[url('/profile/no-profile-picture-icon.svg')] bg-[url('/profile/no-profile-picture-icon-light.svg')] bg-contain"
@@ -24,9 +24,9 @@
 	</div>
 
 
-	<div class=" p-4	dark:md:border dark:border-[#4c4855] md:mt-4   bg-[#fbfcfd] dark:bg-[#24212e] md:border   ml-0 md:ml-2  md:mb-2 md:rounded-lg">
+	<div class=" p-4	dark:md:border dark:border-[#3b3746] md:mt-4   bg-[#fbfcfd] dark:bg-[#252130] md:border   ml-0 md:ml-2  md:mb-2 md:rounded-lg">
 		<div
-			class=" mb-2 border-b-2 font-medium dark:border-[#4f4d5c] border-neutral-200 h-fit pb-4 font-base text-[0.91rem] tracking-[0.01em] leading-6 "
+			class=" mb-2 border-b-2 font-medium dark:border-[#424050] border-neutral-200 h-fit pb-4 font-base text-[0.91rem] tracking-[0.01em] leading-6 "
 		>
 			<span class="float-left dark:text-[#a2a2b1] text-neutral-500"
 				>Residence: <br />City: <br />Age:</span
@@ -37,7 +37,7 @@
 
 			<div class="clear-both" />
 		</div>
-		<div class="mb-2 border-b-2 dark:border-[#4f4d5c] border-neutral-200 h-fit pb-4">
+		<div class="mb-2 border-b-2 dark:border-[#424050] border-neutral-200 h-fit pb-4">
 			<h2 class="dark:text-neutral-200 text-neutral-700 font-medium ">Code</h2>
 
 			<SkillBar
@@ -66,7 +66,7 @@
 				imgHTML={"<img class=' saturate-[1] ' alt='java' src='/logos/java.svg' />"}
 			/>
 		</div>
-		<div class="mb-2 border-b-2 dark:border-[#4f4d5c] border-neutral-200 h-fit pb-4">
+		<div class="mb-2 border-b-2 dark:border-[#424050] border-neutral-200 h-fit pb-4">
 			<h2 class="dark:text-neutral-200 text-neutral-700 font-medium">Frameworks</h2>
 			<SkillBar
 				percentage={'85%'}
@@ -84,7 +84,7 @@
 				imgHTML={"<img class='' alt='tailwindcss' src='/logos/tailwind.svg' />"}
 			/>
 		</div>
-		<div class="mb-2 border-b-2 dark:border-[#4f4d5c] border-neutral-200 h-fit pb-4">
+		<div class="mb-2 border-b-2 dark:border-[#424050] border-neutral-200 h-fit pb-4">
 			<h2 class="dark:text-neutral-200 text-neutral-700 font-medium">Databases</h2>
 			<SkillBar
 				percentage={'85%'}

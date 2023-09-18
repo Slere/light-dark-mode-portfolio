@@ -71,7 +71,7 @@
 					</p>
 				</h1>
 				<p
-					class="px-6 dark:py-4 dark:font-normal font-light  dark:text-[#a29dac] text-neutral-500 text-[0.96rem] tracking-wide leading-[1.40rem] mb-6 dark:mb-0"
+					class="px-6 dark:py-4 dark:font-normal font-light  dark:text-[#ada6bb] text-neutral-500 text-[0.96rem] tracking-wide leading-[1.40rem] mb-6 dark:mb-0"
 				>
 					{@html section.content}
 				</p>
