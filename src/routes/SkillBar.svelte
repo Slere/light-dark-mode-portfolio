@@ -17,10 +17,10 @@
 		<div class="clear-both" />
 	</div>
 	<div
-		class="dark:bg-[#1a1625]/50 bg-neutral-800/10 h-1 group-hover:w-[65%] w-full transition-[width] duration-300 "
+		class="dark:bg-[#322a46]/50 bg-neutral-800/10 h-1 group-hover:w-[65%] w-full transition-[width] duration-300 "
 	>
 		<div
-			class="h-full  dark:from-[#423c6e] dark:to-[#6e65ad] from-[#8abea2] to-[#8abea0] bg-gradient-to-r"
+			class="h-full  dark:from-[#434164] dark:to-[#575486] from-[#8abea2] to-[#8abea0] bg-gradient-to-r"
 			style="width:{percentage}"
 		/>
 	</div>
