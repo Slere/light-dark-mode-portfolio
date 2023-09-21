@@ -9,7 +9,7 @@
 </script>
 
 <div
-	class="bg-[#fbfcfd] shadow-md dark:shadow-none pb-0  dark:border-none dark:border-[#352e46] dark:md:shadow-none flex-auto content-end  max-w-[250px] md:max-w-[250px]  xs:basis-48   md:h-auto mx-3 mb-6       md:min-w-none  md:shadow-md hover:shadow-lg 	rounded-lg  dark:shadow-neutral-900/70    group md:bg-[#fbfcfd] dark:bg-[#1e1a2c]  p-3 	    relative   overflow-hidden "
+	class="bg-[#fbfcfd] shadow-md dark:shadow pb-0  dark:border dark:border-[#292436] dark:md:shadow flex-auto content-end  max-w-[250px] md:max-w-[250px]  xs:basis-48   md:h-auto mx-3 mb-6       md:min-w-none  md:shadow-md hover:shadow-lg 	rounded-lg     group md:bg-[#fbfcfd] dark:bg-[#1e1a2c]  p-3 	    relative   overflow-hidden "
 >
 	<div class=" overflow-hidden">
 		<div class="w-[calc(100%)]">
