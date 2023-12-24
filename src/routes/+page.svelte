@@ -225,15 +225,15 @@
 		</div>
 		<div class="w-full max-w-[570px]  h-fit mx-auto mt-12 text-center px-4">
 			<h1
-				class="font-bold font-['Poppins'] text-4xl lg:text-5xl md:leading-[3.5rem] tracking-tighter  h-fit text-neutral-700 dark:text-neutral-300"
+				class="font-bold font-['Poppins'] text-4xl lg:text-5xl md:leading-[3.5rem] tracking-tighter h-fit text-neutral-700 dark:text-stone-200"
 			>
 				Software Developer Portfolio and quick fact sheet
 			</h1>
-			<p class="text-stone-600 md:text-neutral-500 dark:text-neutral-400 text-lg max-w-[377px] mx-auto mt-4">
+			<p class="text-stone-600 md:text-neutral-500 dark:text-stone-300 text-lg max-w-[377px] mx-auto mt-4">
 				Repository to showcase all of my recent projects in both light & dark mode. Made with Sveltekit and TailwindCSS 
 			</p>
 			<a
-				class="mx-auto mt-4 flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 dark:border-none bg-white dark:bg-[#a688fa] px-5 py-2 text-sm text-gray-600 dark:text-[#1a1625] shadow-md transition-colors hover:border-neutral-500 dark:hover:bg-[#ba9ffb] dark:hover:shadow-neutral-700 "
+				class="mx-auto mt-4 flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 dark:border-none bg-white dark:bg-[#9d88fa] px-5 py-2 text-sm text-gray-600 dark:text-[#1a1625] shadow-md transition-colors hover:border-neutral-500 dark:hover:bg-[#ba9ffb] dark:hover:shadow-neutral-700 "
 				href="https://github.com/Slere/light-dark-mode-portfolio"
 				target="_blank"
 				rel="noopener noreferrer"
@@ -258,14 +258,14 @@
 				{#if project === undefined}
 					<div class="w-full h-fit pr-[2px] xl:pr-0 dark:bg-inherit md:bg-inherit dark:md:bg-inherit dark:border-none  dark:border-neutral-800 md:border-none">
 						<h1
-							class="text-xl  tracking-tight  capitalize font-light dark:text-neutral-200 md:text-neutral-600  text-stone-600  px-2 xs:pl-2 md:pl-4 py-2 pt-2   border-[#29292b]  bg-inherit "
+							class="text-lg  tracking-tight  capitalize font-normal dark:text-neutral-200 md:text-neutral-600  text-stone-600  px-2 xs:pl-2 md:pl-4 py-2 pt-2   border-[#29292b]  bg-inherit "
 						>
 							My projects
 						</h1>
 					</div>
 
 					<div
-						class=" pb-2  px-2 xxs:px-2 xs:px-4 md:px-6 lg:px-6 w-full flex items-stretch  justify-center  flex-wrap bg-inherit dark:bg-inherit md:bg-inherit dark:md:bg-inherit
+						class=" pb-2  px-2 xxs:px-2 xs:px-4 md:px-6 lg:px-6 w-full flex   justify-center  flex-wrap bg-inherit dark:bg-inherit md:bg-inherit dark:md:bg-inherit
 						 "
 					>
 						{#each projects as pr}

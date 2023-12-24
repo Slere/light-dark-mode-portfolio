@@ -8,19 +8,19 @@
 	<div
 		class=" mb-2 group-hover:w-[65%] duration-300 w-full transition-[width] text-sm font-medium text-[0.85rem]"
 	>
-		<span class="float-left dark:text-neutral-300 text-neutral-700  tracking-[0.005em]  "
+		<span class="float-left dark:text-stone-300 text-neutral-700  tracking-[0.005em]  "
 			>{title}</span
 		>
-		<span class="float-right dark:text-[#a2a2b1] text-neutral-600  tracking-[-0.010em]"
+		<span class="float-right dark:text-stone-400 text-neutral-600  tracking-[-0.010em]"
 			>{percentage}</span
 		>
 		<div class="clear-both" />
 	</div>
 	<div
-		class="dark:bg-[#322a46]/50 bg-neutral-800/10 h-1 group-hover:w-[65%] w-full transition-[width] duration-300 "
+		class="dark:bg-[#585f86]/20 bg-neutral-800/10 h-1 group-hover:w-[65%] w-full transition-[width] duration-300 "
 	>
 		<div
-			class="h-full  dark:from-[#434164] dark:to-[#575486] from-[#8abea2] to-[#8abea0] bg-gradient-to-r"
+			class="h-full  dark:from-[#59507a] dark:to-[#636c9b] from-[#77ac96] to-[#79ac97] bg-gradient-to-r"
 			style="width:{percentage}"
 		/>
 	</div>
