@@ -24,14 +24,14 @@
 	</div>
 
 
-	<div class=" p-4	dark:md:border-none dark:border-[#535566] md:mt-4   bg-[#fbfcfd]  dark:bg-[#292929] md:border   ml-0 md:ml-2  md:mb-2 md:rounded-lg">
+	<div class=" p-4	dark:md:border-none dark:border-[#535566] md:mt-4   bg-[#f5f5f3]  dark:bg-[#292929] md:border-none  border-neutral-300  ml-0 md:ml-3 shadow dark:shadow-none  shadow-stone-300 md:mr-1 md:mb-2 md:rounded-lg">
 		<div
 			class=" mb-2 border-b-2 font-medium dark:border-[#313131] border-neutral-200 h-fit pb-4 font-base text-[0.91rem] tracking-[0.01em] leading-6 "
 		>
-			<span class="float-left dark:text-stone-400 text-neutral-500"
+			<span class="float-left dark:text-neutral-400 text-neutral-500"
 				>Residence: <br />City: <br />Age:</span
 			>
-			<span class="float-right text-right font-medium  dark:text-stone-300 text-neutral-600"
+			<span class="float-right text-right font-medium  dark:text-neutral-300 text-neutral-600"
 				>Austria <br /> Vienna <br /> [redacted]</span
 			>
 
@@ -103,7 +103,7 @@
 				<li class="flex items-center ">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 32 32"
 						><path
-							class="dark:fill-[#675d8d] fill-[#63a388]"
+							class="dark:fill-[#6f6794] fill-[#63a388]"
 							d="M28.21 2.4a3.5 3.5 0 0 1 1.344 4.763l-11.51 20.554a4 4 0 0 1-6.135 1.047L3.186 21.08a3.5 3.5 0 0 1 4.628-5.252l5.936 5.23l9.696-17.314A3.5 3.5 0 0 1 28.21 2.4Z"
 						/></svg
 					>
@@ -113,7 +113,7 @@
 				<li class="flex items-center ">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 32 32"
 						><path
-							class="dark:fill-[#675d8d] fill-[#63a388]"
+							class="dark:fill-[#6f6794] fill-[#63a388]"
 							d="M28.21 2.4a3.5 3.5 0 0 1 1.344 4.763l-11.51 20.554a4 4 0 0 1-6.135 1.047L3.186 21.08a3.5 3.5 0 0 1 4.628-5.252l5.936 5.23l9.696-17.314A3.5 3.5 0 0 1 28.21 2.4Z"
 						/></svg
 					>
@@ -123,7 +123,7 @@
 				<li class="flex items-center ">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 32 32"
 						><path
-							class="dark:fill-[#675d8d] fill-[#63a388]"
+							class="dark:fill-[#6f6794] fill-[#63a388]"
 							d="M28.21 2.4a3.5 3.5 0 0 1 1.344 4.763l-11.51 20.554a4 4 0 0 1-6.135 1.047L3.186 21.08a3.5 3.5 0 0 1 4.628-5.252l5.936 5.23l9.696-17.314A3.5 3.5 0 0 1 28.21 2.4Z"
 						/></svg
 					>

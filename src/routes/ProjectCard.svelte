@@ -9,29 +9,29 @@
 </script>
 
 <div 
-	class=" shadow-md basis-52 bg-gradient-to-tr dark:from-[#72588f] dark:to-[#51749c] from-[#96dbbe] to-[#e1eba6] p-1 dark:p-[3px] rounded-lg mx-3 mb-6  h-[200px] group"
+	class=" shadow-md basis-52 bg-gradient-to-tr dark:from-[#72588f] dark:to-[#51749c] from-[#96dbbe] to-[#e1eba6] p-[2px] dark:p-[2px] rounded-lg mx-3 mb-6  h-[200px] group"
 >
-	<div class="dark:bg-[#292929] bg-[#fbfcfd] rounded-tl-md rounded-tr-md px-4 py-2 relative  overflow-hidden h-[80%]">
+	<div class="dark:bg-[#292929] bg-[#fbfcfd] rounded-tl-md rounded-tr-md rounded-br-[3px] rounded-bl-[3px] pl-4 pr-3 py-2 relative  overflow-hidden h-[80%]">
 		<h1 class="dark:text-[#ffffff] whitespace-nowrap text-ellipsis text-neutral-600 text-base font-semibold ">
 			{title}
 		</h1>
 		<p class="font-normal dark:text-[#dbd5d5] text-sm leading-[1.3rem] tracking-wide text-neutral-500 break-words ">
 			{summary}
 		</p>
-		<div class="h-3 from-[#fbfcfd] dark:from-[#292929]  to-transparent bg-gradient-to-t absolute bottom-0 left-0  w-full"></div>
+		<div class="h-4  from-[#fbfcfd] dark:from-[#292929] to-transparent bg-gradient-to-t absolute bottom-0 left-0  w-full"></div>
 	</div>
 
 	{#if !isUnderConstruction}
 	<div
-			class="px-3 py-1  bg-[#fbfcfd]	 dark:bg-[#292929] h-[20%]   w-full      opacity-100  flex justify-center rounded-br-md rounded-bl-md  "
+			class="px-3 py-1  bg-inherit	 dark:bg-inherit h-[20%]   w-full      opacity-100  flex justify-center rounded-br-md rounded-bl-md  "
 		>
 			<span
-				class=" group-hover:h-fit  self-center  font-medium  leading-3	text-[0.9rem] dark:text-[#d0c7d6]  md:dark:bg-inherit rounded-lg text-neutral-700 flex items-center"
+				class=" group-hover:h-fit  self-center  font-medium  leading-3	text-[0.9rem] dark:text-[#e0cdf1]  md:dark:bg-inherit rounded-lg text-[#3e6453] flex items-center"
 			>
 				<!-- svelte-ignore a11y-missing-attribute -->
 				<!-- svelte-ignore a11y-click-events-have-key-events -->
 				<a
-					class=" dark:md:bg-inherit pointer-events-none group-hover:pointer-events-auto group-hover:cursor-pointer px-2	 underline-offset-2 underline capitalize  dark:hover:text-stone-50 hover:text-[#63a388]"
+					class=" dark:md:bg-inherit pointer-events-none group-hover:pointer-events-auto group-hover:cursor-pointer px-2	 underline-offset-2 underline capitalize  dark:hover:text-[#f0e7f8] hover:text-[#394742]"
 					on:click={() => {
 						dispatch('project', { project: projectID });
 					}}><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -44,7 +44,7 @@
 						href={github}
 						target="_blank"
 						rel="noreferrer"
-						class="pointer-events-none group-hover:pointer-events-auto group-hover:cursor-pointer px-1 underline-offset-2 hover:underline capitalize hover:text-[#63a388] dark:hover:text-stone-50"
+						class="pointer-events-none group-hover:pointer-events-auto group-hover:cursor-pointer px-1 underline-offset-2 hover:underline capitalize hover:text-[#394742] dark:hover:text-[#f0e7f8]"
 						><svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="24"
@@ -62,10 +62,10 @@
 	{:else}
 	
 		<div
-			class=" w-full h-[20%]  bg-[#fbfcfd] dark:bg-[#292929] opacity-100  flex justify-center rounded-br rounded-bl"
+			class=" w-full h-[20%]  bg-inherit dark:bg-inherit opacity-100  flex justify-center rounded-br-md rounded-bl-md"
 		>
 			<span
-				class=" group-hover:h-fit text-sm  self-center  font-medium  dark:text-[#f1f0ee] text-neutral-500"
+				class=" group-hover:h-fit text-sm  self-center  font-medium  dark:text-[#d9d0e0] text-[#3e6453]"
 			>
 				coming soon...
 			</span>
