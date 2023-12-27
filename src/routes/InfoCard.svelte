@@ -9,22 +9,22 @@
 	<!-- #39393d -->
 	<div class="   ">
 		<div
-			class="dark:md:border-[#3b3a44] dark:border-[#353535] dark:border-b-2 dark:md:border-none  pt-8 md:pt-6  pb-6 md:ml-3 md:mr-1  md:mt-2 to-[#e1ec9e] from-[#83cfaf] md:to-[#e1ec9e] md:from-[#83cfaf] bg-gradient-to-tr md:rounded-lg  dark:to-[#313131] dark:from-[#313131] dark:shadow-none shadow-md md:shadow-neutral-400"
+			class="dark:md:border-[#353535] dark:border-[#353535] dark:border-b-2 dark:md:border-none pt-8 md:pt-6  pb-6 md:ml-3 md:mr-1  md:mt-2 to-[#e1ec9e] from-[#83cfaf] md:to-[#e1ec9e] md:from-[#83cfaf] bg-gradient-to-tr md:rounded-lg dark:to-[#313131] dark:from-[#313131]  dark:shadow-none   shadow-md md:shadow-neutral-400  "
 		>
 			<div
 				class="mx-auto h-28 w-28 mb-2   rounded-full dark:bg-[url('/profile/no-profile-picture-icon.svg')] bg-[url('/profile/no-profile-picture-icon-light.svg')] bg-contain"
 			/>
 			<p
-				class="text-center  text-2xl  tracking-tight font-normal    dark:text-stone-300 text-neutral-700"
+				class="text-center  text-2xl  tracking-tight font-normal    dark:text-[#d0d0d0] text-stone-700"
 			>
 				Rene Ensle
 			</p>
-			<p class="text-center font-light dark:text-stone-400 text-neutral-700 ">Fullstack Developer</p>
+			<p class="text-center font-light dark:text-stone-400 text-stone-700 ">Fullstack Developer</p>
 		</div>
 	</div>
 
 
-	<div class=" p-4	dark:md:border-none dark:border-[#535566] md:mt-4   bg-[#f5f5f3]  dark:bg-[#292929] md:border-none  border-neutral-300  ml-0 md:ml-3 shadow dark:shadow-none  shadow-stone-300 md:mr-1 md:mb-2 md:rounded-lg">
+	<div class=" p-4	dark:md:border-none dark:border-[#535566] md:mt-4   bg-stone-100  dark:bg-[#292929] md:border-none  border-neutral-300  ml-0 md:ml-3 shadow dark:shadow-none  shadow-stone-300 md:mr-1 md:mb-2 md:rounded-lg">
 		<div
 			class=" mb-2 border-b-2 font-medium dark:border-[#313131] border-neutral-200 h-fit pb-4 font-base text-[0.91rem] tracking-[0.01em] leading-6 "
 		>

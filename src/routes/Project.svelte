@@ -14,7 +14,7 @@
 </script>
 
 <div
-	class="min-h-[70vh] md:min-h-0 md:border-none relative  border-t dark:border-t dark:border-neutral-800 dark:bg-inherit md:shadow-none md:dark:shadow-none  px-8 md:px-4 pt-4 pb-2 md:mb-4 md:rounded-lg   dark:lg:mx-auto  md:mx-10 lg:mx-auto lg:max-w-[677px]"
+	class=" shadow-neutral-200 bg-[#f5f5f4] dark:md:bg-[#292929] dark:bg-inherit  min-h-[70vh] md:min-h-0 md:dark:border-none  relative  border-t dark:border-t dark:border-neutral-800  md:shadow md:dark:shadow-none  px-8 md:px-4 pt-4 pb-2 md:mb-4 md:rounded-md     md:mx-3 lg:mx-4 "
 >
 	<!-- svelte-ignore a11y-click-events-have-key-events -->
 	<div
@@ -55,7 +55,7 @@
 
 	<div class="w-full h-fit ">
 		{#each sections as section}
-			<div class="px-4 pt-2 pb-4 dark:border-none rounded-lg dark:shadow-none shadow shadow-neutral-200 bg-[#fbfcfd] dark:bg-[#292929] mb-4">
+			<div class="px-4 pt-2 pb-4 dark:border-none rounded-lg dark:shadow-none dark:bg-[#292929] dark:md:bg-inherit  mb-4">
 				<h1
 					class="  text-xl mb-0 dark:font-medium  dark:text-stone-100 text-neutral-600 border-b-0 border-neutral-600 "
 				>
