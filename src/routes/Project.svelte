@@ -55,7 +55,7 @@
 
 	<div class="w-full h-fit ">
 		{#each sections as section}
-			<div class="px-4 pt-2 pb-4 dark:border-none rounded-lg border bg-[#fbfcfd] dark:bg-[#292929] mb-4">
+			<div class="px-4 pt-2 pb-4 dark:border-none rounded-lg dark:shadow-none shadow shadow-neutral-200 bg-[#fbfcfd] dark:bg-[#292929] mb-4">
 				<h1
 					class="  text-xl mb-0 dark:font-medium  dark:text-stone-100 text-neutral-600 border-b-0 border-neutral-600 "
 				>
