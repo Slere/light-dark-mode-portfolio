@@ -9,7 +9,7 @@
 </script>
 
 <div 
-	class=" shadow-md basis-52 bg-gradient-to-tr dark:from-[#72588f] dark:to-[#51749c] to-[#e1ec9e] from-[#83cfaf] p-[0px] dark:p-[0px] rounded-lg  mb-6  h-[200px] group"
+	class=" shadow-md basis-52 bg-gradient-to-tr dark:from-[#72588f] dark:to-[#51749c] to-[#e5f09e] from-[#83cf94] p-[0px] dark:p-[0px] rounded-lg  mb-6  h-[200px] group"
 >
 	<div class=" dark:bg-[#292929] bg-stone-100 rounded-tl-md rounded-tr-md  pl-5 pr-4 py-3 relative  overflow-hidden h-[80%]">
 		<h1 class="dark:text-[#ffffff] whitespace-nowrap text-ellipsis text-neutral-600 text-base font-semibold ">

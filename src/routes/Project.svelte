@@ -41,7 +41,7 @@
 		
 			<div class="flex flex-wrap gap-[0.4rem] md:gap-2 mb-3">
 				{#each tags as tag, i}
-				<div class="p-[2px] bg-gradient-to-tr dark:from-[#72588f] dark:to-[#51749c] from-[#96dbbe] to-[#e1eba6] rounded-lg">
+				<div class="p-[2px] bg-gradient-to-tr dark:from-[#72588f] dark:to-[#51749c] from-[#83cf94] to-[#e5f09e] rounded-lg">
 					<div
 						class="p-2 rounded-md  shadow-sm  text-sm text-[0.83rem] leading-[1rem]    dark:text-stone-300 text-neutral-500 dark:bg-[#303030] bg-stone-50 tracking-tight"
 					>

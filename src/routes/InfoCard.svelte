@@ -9,7 +9,7 @@
 	<!-- #39393d -->
 	<div class="  ">
 		<div
-			class="dark:md:border-[#353535] dark:border-[#353535] dark:border-b-2 dark:md:border-none pt-8 md:pt-6  pb-6 md:ml-3 md:mr-1  md:mt-2 to-[#e1ec9e] from-[#83cfaf] md:to-[#e1ec9e] md:from-[#83cfaf] bg-gradient-to-tr md:rounded-lg dark:to-[#313131] dark:from-[#313131]  dark:shadow-none   shadow-md md:shadow-neutral-400  "
+			class="dark:md:border-[#353535] dark:border-[#353535] dark:border-b-2 dark:md:border-none pt-8 md:pt-6  pb-6 md:ml-3 md:mr-1  md:mt-2  to-[#e5f09e] from-[#83cf94] bg-gradient-to-tr md:rounded-lg dark:to-[#313131] dark:from-[#313131]  dark:shadow-none   shadow-md md:shadow-neutral-400  "
 		>
 			<div
 				class="mx-auto h-28 w-28 mb-2   rounded-full dark:bg-[url('/profile/no-profile-picture-icon.svg')] bg-[url('/profile/no-profile-picture-icon-light.svg')] bg-contain"
@@ -103,7 +103,7 @@
 				<li class="flex items-center ">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 32 32"
 						><path
-							class="dark:fill-[#6f6794] fill-[#77ac96]"
+							class="dark:fill-[#6f6794] fill-[#83cf94]"
 							d="M28.21 2.4a3.5 3.5 0 0 1 1.344 4.763l-11.51 20.554a4 4 0 0 1-6.135 1.047L3.186 21.08a3.5 3.5 0 0 1 4.628-5.252l5.936 5.23l9.696-17.314A3.5 3.5 0 0 1 28.21 2.4Z"
 						/></svg
 					>
@@ -113,7 +113,7 @@
 				<li class="flex items-center ">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 32 32"
 						><path
-							class="dark:fill-[#6f6794] fill-[#77ac96]"
+							class="dark:fill-[#6f6794] fill-[#83cf94]"
 							d="M28.21 2.4a3.5 3.5 0 0 1 1.344 4.763l-11.51 20.554a4 4 0 0 1-6.135 1.047L3.186 21.08a3.5 3.5 0 0 1 4.628-5.252l5.936 5.23l9.696-17.314A3.5 3.5 0 0 1 28.21 2.4Z"
 						/></svg
 					>
@@ -123,7 +123,7 @@
 				<li class="flex items-center ">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-2" viewBox="0 0 32 32"
 						><path
-							class="dark:fill-[#6f6794] fill-[#77ac96]"
+							class="dark:fill-[#6f6794] fill-[#83cf94]"
 							d="M28.21 2.4a3.5 3.5 0 0 1 1.344 4.763l-11.51 20.554a4 4 0 0 1-6.135 1.047L3.186 21.08a3.5 3.5 0 0 1 4.628-5.252l5.936 5.23l9.696-17.314A3.5 3.5 0 0 1 28.21 2.4Z"
 						/></svg
 					>
@@ -133,7 +133,7 @@
 			</ul>
 		</div>
 
-		<div class="dark:bg-neutral-700 bg-[#77ac96] p-2 py-2 text-center font-medium">
+		<div class="dark:bg-neutral-700 bg-[#83cf94] p-2 py-2 text-center font-medium">
 			<a
 				href="https://github.com/Slere"
 				target="_blank"

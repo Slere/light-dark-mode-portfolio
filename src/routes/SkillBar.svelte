@@ -20,7 +20,7 @@
 		class="dark:bg-[#9489bb]/20 bg-neutral-800/10 h-1 group-hover:w-[65%] w-full transition-[width] duration-300 "
 	>
 		<div
-			class="h-full  dark:from-[#6f6794] dark:to-[#838dbe] from-[#77ac96] to-[#79ac97] bg-gradient-to-r"
+			class="h-full  dark:from-[#6f6794] dark:to-[#838dbe] from-[#8dc79a] to-[#8dc79a] bg-gradient-to-r"
 			style="width:{percentage}"
 		/>
 	</div>
