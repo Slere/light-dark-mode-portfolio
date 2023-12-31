@@ -233,7 +233,7 @@
 				Repository to showcase all of my recent projects in both light & dark mode. Made with Sveltekit and TailwindCSS 
 			</p>
 			<a
-				class="mx-auto mt-4 flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 dark:border-none bg-white dark:bg-[#9d88fa] px-5 py-2 text-sm text-gray-600 dark:text-[#1a1625] shadow-md transition-colors hover:border-neutral-500 dark:hover:bg-[#ba9ffb] dark:hover:shadow-neutral-700 "
+				class="mx-auto mt-4 flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 dark:border-none bg-white dark:bg-[#9789d3] px-5 py-2 text-sm text-gray-600 dark:text-[#1a1625] shadow-md transition-colors hover:border-neutral-500 dark:hover:bg-[#ba9ffb] dark:hover:shadow-neutral-700 "
 				href="https://github.com/Slere/light-dark-mode-portfolio"
 				target="_blank"
 				rel="noopener noreferrer"

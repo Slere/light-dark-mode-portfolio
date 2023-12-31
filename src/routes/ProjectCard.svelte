@@ -9,24 +9,24 @@
 </script>
 
 <div 
-	class=" shadow-md basis-52 bg-gradient-to-tr dark:from-[#72588f] dark:to-[#51749c] to-[#e1ec9e] from-[#83cfaf] p-[2px] dark:p-[2px] rounded-lg  mb-6  h-[200px] group"
+	class=" shadow-md basis-52 bg-gradient-to-tr dark:from-[#72588f] dark:to-[#51749c] to-[#e1ec9e] from-[#83cfaf] p-[0px] dark:p-[0px] rounded-lg  mb-6  h-[200px] group"
 >
-	<div class="dark:bg-[#292929] bg-[#fbfcfd] rounded-tl-md rounded-tr-md rounded-br-[3px] rounded-bl-[3px] pl-4 pr-3 py-2 relative  overflow-hidden h-[80%]">
+	<div class=" dark:bg-[#292929] bg-stone-100 rounded-tl-md rounded-tr-md  pl-5 pr-4 py-3 relative  overflow-hidden h-[80%]">
 		<h1 class="dark:text-[#ffffff] whitespace-nowrap text-ellipsis text-neutral-600 text-base font-semibold ">
 			{title}
 		</h1>
 		<p class="font-normal dark:text-[#dbd5db] text-sm leading-[1.3rem] tracking-wide text-neutral-500 break-words ">
 			{summary}
 		</p>
-		<div class="h-4  from-[#fbfcfd] dark:from-[#292929] to-transparent bg-gradient-to-t absolute bottom-0 left-0  w-full"></div>
+		<div class="h-3  from-stone-100 dark:from-[#292929] to-transparent bg-gradient-to-t absolute bottom-0 left-0  w-full"></div>
 	</div>
 
 	{#if !isUnderConstruction}
 	<div
-			class="px-3 py-1  bg-inherit	 dark:bg-inherit h-[20%]   w-full      opacity-100  flex justify-center rounded-br-md rounded-bl-md  "
+			class="px-3 py-1  bg-inherit dark:bg-inherit h-[20%]   w-full      opacity-100  flex justify-center rounded-br-md rounded-bl-md  "
 		>
 			<span
-				class=" group-hover:h-fit  self-center  font-medium  leading-3	text-[0.9rem] dark:text-[#e0cdf1]  md:dark:bg-inherit rounded-lg text-[#4b6e5e] flex items-center"
+				class=" group-hover:h-fit  self-center  font-medium  leading-3	text-[0.9rem] dark:text-[#c7bbd1]  md:dark:bg-inherit rounded-lg text-[#4b6e5e] flex items-center"
 			>
 				<!-- svelte-ignore a11y-missing-attribute -->
 				<!-- svelte-ignore a11y-click-events-have-key-events -->
